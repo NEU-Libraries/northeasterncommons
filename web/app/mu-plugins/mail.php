@@ -52,5 +52,3 @@ function hcommons_filter_comment_notification_text( $text ) {
 	return $text;
 }
 add_filter( 'comment_notification_text', 'hcommons_filter_comment_notification_text' );
-
-?>

@@ -1,6 +1,6 @@
 {
-  "name": "mlaa/commons",
-  "description": "MLA Commons",
+  "name": "NEU-Libraries/northeasterncommons",
+  "description": "Northeastern Commons",
   "version": "1.0.0",
   "type": "project",
   "license": "MIT",
@@ -115,14 +115,6 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:mlaa/profession-theme.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:mlaa/style-center.git"
-    },
-    {
-      "type": "vcs",
       "url": "git@github.com:mlaa/shibboleth.git"
     },
     {
@@ -157,11 +149,11 @@
     {
       "type": "package",
       "package": {
-        "name": "boonebgorges/bp-mpo-activity-filter",
+        "name": "mlaa/bp-mpo-activity-filter",
         "version": "dev-master",
         "type": "wordpress-plugin",
         "source": {
-          "url": "git@github.com:boonebgorges/bp-mpo-activity-filter.git",
+          "url": "git@github.com:mlaa/bp-mpo-activity-filter.git",
           "type": "git",
           "reference": "master"
         }
@@ -209,6 +201,19 @@
     {
       "type": "package",
       "package": {
+        "name": "boonebgorges/buddypress-docs-wiki",
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "git@github.com:boonebgorges/buddypress-docs-wiki.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
         "name": "mlaa/bp-multiple-forum-post",
         "version": "dev-master",
         "type": "wordpress-plugin",
@@ -229,6 +234,19 @@
           "url": "git@github.com:cuny-academic-commons/bp-multiple-forum-post.git",
           "type": "git",
           "reference": "0d1afc3"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "cuny-academic-commons/bp-group-announcements",
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "source": {
+          "url": "git@github.com:cuny-academic-commons/bp-group-announcements.git",
+          "type": "git",
+          "reference": "03d2dda"
         }
       }
     },
@@ -400,47 +418,24 @@
           "reference": "master"
         }
       }
-    },
-    {
-      "type": "package",
-      "package": {
-        "name": "wpninjas/ninja-forms-uploads",
-        "version": "3.0.18",
-        "type": "wordpress-plugin",
-        "source": {
-          "url": "git@github.com:wpninjas/ninja-forms-uploads.git",
-          "type": "git",
-          "reference": "3.0.18"
-        }
-      }
     }
   ],
   "require": {
     "php": ">=5.5",
     "boonebgorges/bp-groupblog": "dev-master",
-    "boonebgorges/bp-mpo-activity-filter": "dev-master#2cd9b53",
-    "buddyboss/boss": "^2.2",
-    "christian-wach/commentpress-flat-child": "^1.0",
-    "cmoreira/interactive-world-maps": "1.9.9",
+    "boonebgorges/buddypress-docs-wiki": "dev-master",
     "composer/installers": "^1.2",
-    "cubell/15zine-functionality": "2.1.0",
     "cuny-academic-commons/bp-multiple-forum-post": "dev-master#2e49b59",
+    "cuny-academic-commons/bp-group-announcements": "dev-master#03d2dda",
     "cuny-academic-commons/cbox-theme": "dev-master#c3b6bd3",
     "cuny-academic-commons/external-group-blogs": "dev-1.6.1",
-    "envato/wordpress-toolkit": "1.7.3",
-    "goodlayers/gdlr-cause": "^1.0",
-    "goodlayers/gdlr-portfolio": "^1.0",
-    "goodlayers/gdlr-shortcode": "^1.0",
-    "goodlayers/goodlayers-importer": "^1.0",
     "johnpbloch/wordpress": "4.9.6",
-    "kreatura/layerslider": "^5.6",
     "mlaa/bbPress-Export-and-Import": "dev-master#5aaaa29",
     "mlaa/boss-child": "dev-master#dede4e2",
     "mlaa/bp-attachment-xprofile-field-type": "dev-master#1cc136c",
-    "mlaa/bp-block-member": "^1.4",
     "mlaa/bp-event-organiser": "dev-master#3259b8d",
     "mlaa/bp-group-documents": "dev-master",
-    "mlaa/bp-mpo-activity-filter": "dev-master#b3cd2e6",
+    "mlaa/bp-mpo-activity-filter": "dev-master",
     "mlaa/bp-reply-by-email": "dev-master#29b396c",
     "mlaa/buddypress": "dev-hcommons-2.9.3#03b17d2",
     "mlaa/buddypress-docs-minor-edit": "dev-master",
@@ -468,31 +463,19 @@
     "mlaa/mla-allowed-tags": "dev-master#b302f21",
     "mlaa/password-protected": "dev-master",
     "mlaa/plugin-monitor": "dev-master#82203d5",
-    "mlaa/profession-theme": "dev-master",
     "mlaa/shibboleth": "dev-master#2849e37",
     "mlaa/sparkpost": "dev-hotfix-hc-multinetwork#e0ffe49",
     "mlaa/sparkpost-bp-mailer": "dev-master",
-    "mlaa/style-center": "dev-master#de77171",
-    "mmlc/lesmiserables-wordpress-theme": "^1.0",
     "monolog/monolog": "1.18.1",
-    "owwwlab/faculty": "^3.11",
     "r-a-y/bp-rbe-inbound-forum-attachments": "dev-master#4b29985",
     "r-a-y/bp-rbe-new-topic": "dev-master#b68a6ca",
     "r-a-y/buddypress-followers": "^1.2",
-    "raygun/q-and-a": "1.0.6.2",
-    "siteorigin/vantage": "2.4.4",
-    "siteorigin/vantage-premium": "^2.5",
+    "roots/multisite-url-fixer": "^1.1",
     "solarium/solarium": "3.8.1",
     "stuttter/wp-multi-network": "^2.2",
-    "themeforest/15zine": "^2.2",
-    "themeforest/charityhub": "^1.11",
-    "themeforest/education": "^2.8",
-    "themesindep/shortcodes-indep": "^3.0",
-    "themesindep/simplemag": "^3.0",
     "uglyrobot/multisite-plugin-manager": "dev-master",
     "vlucas/phpdotenv": "^2.4",
     "wpackagist-plugin/akismet": "^4.0",
-    "wpackagist-plugin/anthologize": "^0.7.8",
     "wpackagist-plugin/autoptimize": "^2.3",
     "wpackagist-plugin/avatar-privacy": "^1.1",
     "wpackagist-plugin/bbpress": "2.5.14",
@@ -501,11 +484,13 @@
     "wpackagist-plugin/bp-lotsa-feeds": "^1.0",
     "wpackagist-plugin/buddypress-docs": "1.9.4",
     "wpackagist-plugin/buddypress-sitewide-activity-widget": "^1.3",
+    "wpackagist-plugin/buddypress-global-search": "^1.1.9",
     "wpackagist-plugin/cac-featured-content": "1.0.7",
     "wpackagist-plugin/commentpress-core": "^3.9",
     "wpackagist-plugin/commons-in-a-box": "^1.0",
     "wpackagist-plugin/creare-eu-cookie-law-banner": "^0.1.0",
     "wpackagist-plugin/creative-commons-configurator-1": "^1.8",
+    "wpackagist-plugin/custom-profile-filters-for-buddypress": "^0.4",
     "wpackagist-plugin/debug-bar-constants": "^2.0",
     "wpackagist-plugin/debug-bar-elasticpress": "^1.3",
     "wpackagist-plugin/debug-bar-post-types": "^2.0",
@@ -515,7 +500,6 @@
     "wpackagist-plugin/edit-flow": "^0.8.2",
     "wpackagist-plugin/elasticpress": "^2.2",
     "wpackagist-plugin/event-organiser": "^3.7",
-    "wpackagist-plugin/events-made-easy": "^2.0",
     "wpackagist-plugin/events-manager": "^5.9",
     "wpackagist-plugin/ewww-image-optimizer": "^4.2",
     "wpackagist-plugin/fd-footnotes": "^1.36",
@@ -549,10 +533,6 @@
     "wpackagist-plugin/remove-dashboard-access-for-non-admins": "^1.1",
     "wpackagist-plugin/scholarpress-coins": "^2.2",
     "wpackagist-plugin/shareadraft": "^1.5",
-    "wpackagist-plugin/siteorigin-panels": "^2.6",
-    "wpackagist-plugin/so-css": "^1.2",
-    "wpackagist-plugin/so-widgets-bundle": "^1.11",
-    "wpackagist-plugin/storify": "^1.0",
     "wpackagist-plugin/tinymce-advanced": "^4.7",
     "wpackagist-plugin/typekit-fonts-for-wordpress": "^1.9",
     "wpackagist-plugin/user-switching": "^1.3",
@@ -562,6 +542,7 @@
     "wpackagist-plugin/wordpress-importer": "^0.6.4",
     "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.5.1",
     "wpackagist-plugin/wp-accessibility": "^1.6",
+    "wpackagist-plugin/wp-export-categories-taxonomies": "^1.0.3",
     "wpackagist-plugin/wp-fail2ban": "^3.5",
     "wpackagist-plugin/wp-google-maps": "^7.10",
     "wpackagist-plugin/wp-hide-dashboard": "^2.2",
@@ -570,46 +551,14 @@
     "wpackagist-plugin/wp-pro-quiz": "^0.37.0",
     "wpackagist-plugin/wp-to-twitter": "^3.3",
     "wpackagist-plugin/wpfront-notification-bar": "^1.7",
-    "wpackagist-plugin/zotpress": "^6.2",
-    "wpackagist-theme/dispatch": "^4.5",
-    "wpackagist-theme/foghorn": "^0.3.0",
-    "wpackagist-theme/hitchcock": "^1.06",
-    "wpackagist-theme/hum": "^0.2.1",
-    "wpackagist-theme/maskitto-light": "^3.4",
-    "wpackagist-theme/origin": "^0.6.0",
-    "wpackagist-theme/portfolio-press": "^2.7",
-    "wpackagist-theme/poseidon": "^1.6",
-    "wpackagist-theme/publish": "^1.2",
-    "wpackagist-theme/radcliffe": "^1.17",
-    "wpackagist-theme/responsive": "^3.11",
-    "wpackagist-theme/sparkling": "^2.3",
-    "wpackagist-theme/suits": "^1.3",
-    "wpackagist-theme/twentyeleven": "^2.5",
-    "wpackagist-theme/twentyfifteen": "^2.0",
-    "wpackagist-theme/twentyfourteen": "^2.2",
-    "wpackagist-theme/twentyseventeen": "^1.1",
-    "wpackagist-theme/twentysixteen": "^1.3",
-    "wpackagist-theme/twentyten": "^2.2",
-    "wpackagist-theme/twentythirteen": "^2.1",
-    "wpackagist-theme/twentytwelve": "^2.2",
-    "wpackagist-theme/vantage": "^1.5",
-    "wpackagist-theme/wp-bootstrap-starter": "^3.0",
-    "wpbakery/visual-composer": "^5.2",
-    "wpmudev/google-analytics-async": "3.1.7.1",
-    "wpninjas/ninja-forms-conditional-logic": "^3.0",
-    "wpninjas/ninja-forms-layout-styles": "^3.0",
-    "wpninjas/ninja-forms-multi-part": "^3.0",
-    "wpninjas/ninja-forms-pdf-submissions": "^3.0",
-    "wpninjas/ninja-forms-save-progress": "^3.0",
-    "wpninjas/ninja-forms-uploads": "3.0.18"
+    "wpackagist-plugin/zotpress": "^6.2"
   },
   "scripts": {
     "pre-update-cmd": [
       "mkdir -p /tmp/wordpress-packages"
     ],
     "pre-install-cmd": [
-      "mkdir -p /tmp/wordpress-packages",
-      "aws s3 sync s3://mla-backup/commons/packages /tmp/wordpress-packages --only-show-errors --delete"
+      "mkdir -p /tmp/wordpress-packages"
     ],
     "post-install-cmd": [
       "cd web/app/plugins/bp-rbe-inbound-forum-attachments && composer install"

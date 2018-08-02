@@ -63,7 +63,7 @@ function hcommons_wp_footer() {
 		}
 
 		$text = sprintf(
-			'<div id="hcommons-network-footer" style="%s">This site is part of %s<em><a href="%s">Humanities Commons</a></em>. <a href="%s">Explore other sites on this network</a> or <a href="%s">register to build your own</a>.</div>',
+			'<div id="hcommons-network-footer" style="%s">This site is part of %s<em><a href="%s">Northeastern Commons</a></em>. <a href="%s">Explore other sites on this network</a> or <a href="%s">register to build your own</a>.</div>',
 			$style,
 			( 'hc' === $society_id ) ? '' : sprintf( 'the %s network on ', strtoupper( $society_id ) ),
 			'https://' . $main_site_domain,
