@@ -429,7 +429,7 @@
     "cuny-academic-commons/bp-group-announcements": "dev-master#03d2dda",
     "cuny-academic-commons/cbox-theme": "dev-master#c3b6bd3",
     "cuny-academic-commons/external-group-blogs": "dev-1.6.1",
-    "johnpbloch/wordpress": "4.9.6",
+    "johnpbloch/wordpress": "^4.9",
     "mlaa/bbPress-Export-and-Import": "dev-master#5aaaa29",
     "mlaa/boss-child": "dev-master#dede4e2",
     "mlaa/bp-attachment-xprofile-field-type": "dev-master#1cc136c",
