@@ -19,7 +19,7 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:mlaa/boss-child.git"
+      "url": "git@github.com:NEU-Libraries/boss-child.git"
     },
     {
       "type": "vcs",
@@ -32,10 +32,6 @@
     {
       "type": "vcs",
       "url": "git@github.com:mlaa/buddypress-docs-minor-edit.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:mlaa/bwp-google-xml-sitemaps.git"
     },
     {
       "type": "vcs",
@@ -59,7 +55,7 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:mlaa/hc-member-profiles.git"
+      "url": "git@github.com:NEU-Libraries/hc-member-profiles.git"
     },
     {
       "type": "vcs",
@@ -75,7 +71,7 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:mlaa/hc-custom.git"
+      "url": "git@github.com:NEU-Libraries/hc-custom.git"
     },
     {
       "type": "vcs",
@@ -91,7 +87,7 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:mlaa/humanities-commons.git"
+      "url": "git@github.com:NEU-Libraries/humanities-commons.git"
     },
     {
       "type": "vcs",
@@ -169,19 +165,6 @@
           "url": "git@github.com:mlaa/BuddyPress.git",
           "type": "git",
           "reference": "hcommons-2.9.3"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
-        "name": "mlaa/bp-event-organiser",
-        "version": "dev-master",
-        "type": "wordpress-plugin",
-        "source": {
-          "url": "git@github.com:mlaa/bp-event-organiser.git",
-          "type": "git",
-          "reference": "master"
         }
       }
     },
@@ -431,9 +414,8 @@
     "cuny-academic-commons/external-group-blogs": "dev-1.6.1",
     "johnpbloch/wordpress": "^4.9",
     "mlaa/bbPress-Export-and-Import": "dev-master#5aaaa29",
-    "mlaa/boss-child": "dev-master#dede4e2",
+    "NEU-Libraries/boss-child": "dev-master",
     "mlaa/bp-attachment-xprofile-field-type": "dev-master#1cc136c",
-    "mlaa/bp-event-organiser": "dev-master#3259b8d",
     "mlaa/bp-group-documents": "dev-master",
     "mlaa/bp-mpo-activity-filter": "dev-master",
     "mlaa/bp-reply-by-email": "dev-master#29b396c",
@@ -441,7 +423,6 @@
     "mlaa/buddypress-docs-minor-edit": "dev-master",
     "mlaa/buddypress-group-email-subscription": "dev-3.8.x-hotfix-128",
     "mlaa/buddypress-messages-spam-blocker": "dev-master",
-    "mlaa/bwp-google-xml-sitemaps": "dev-master",
     "mlaa/cbox-auth": "dev-master",
     "mlaa/cbox-mla-blog": "dev-master#ec1c086",
     "mlaa/commentpress-mla": "dev-master#9ca1567",
@@ -449,14 +430,14 @@
     "mlaa/commentpress-mla-groups": "dev-master",
     "mlaa/elasticpress-buddypress": "dev-master#7e2944f",
     "mlaa/hc-auth": "dev-master#167c3843",
-    "mlaa/hc-custom": "dev-master#27dd83b",
-    "mlaa/hc-member-profiles": "dev-master#6f2b0a8",
+    "NEU-Libraries/hc-custom": "dev-master",
+    "NEU-Libraries/hc-member-profiles": "dev-master",
     "mlaa/hc-notifications": "dev-master#ac409d0",
     "mlaa/hc-protect-uploads": "dev-master#951a8f0",
     "mlaa/hc-provisional-content": "dev-master#e92ba24",
     "mlaa/hc-styles": "dev-master#4111b93",
     "mlaa/hc-suggestions": "dev-master#66358a7",
-    "mlaa/humanities-commons": "dev-master#8f08d63",
+    "NEU-Libraries/humanities-commons": "dev-master",
     "mlaa/humcore": "dev-master#559d782",
     "mlaa/mla-academic-interests": "dev-master#fca6e92",
     "mlaa/mla-admin-bar": "dev-master",
@@ -499,7 +480,6 @@
     "wpackagist-plugin/disable-password-reset-extended": "^1.0",
     "wpackagist-plugin/edit-flow": "^0.8.2",
     "wpackagist-plugin/elasticpress": "^2.2",
-    "wpackagist-plugin/event-organiser": "^3.7",
     "wpackagist-plugin/events-manager": "^5.9",
     "wpackagist-plugin/ewww-image-optimizer": "^4.2",
     "wpackagist-plugin/fd-footnotes": "^1.36",
@@ -533,6 +513,7 @@
     "wpackagist-plugin/remove-dashboard-access-for-non-admins": "^1.1",
     "wpackagist-plugin/scholarpress-coins": "^2.2",
     "wpackagist-plugin/shareadraft": "^1.5",
+    "wpackagist-plugin/siteorigin-panels": "^2.6",
     "wpackagist-plugin/tinymce-advanced": "^4.7",
     "wpackagist-plugin/typekit-fonts-for-wordpress": "^1.9",
     "wpackagist-plugin/user-switching": "^1.3",

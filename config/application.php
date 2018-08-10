@@ -76,6 +76,14 @@ define('AUTOMATIC_UPDATER_DISABLED', true);
 define('DISABLE_WP_CRON', getenv('DISABLE_WP_CRON') ?: false);
 define('DISALLOW_FILE_EDIT', true);
 
+if ( getenv('WP_PROXY_HOST') ) {
+	define('WP_PROXY_HOST', getenv('WP_PROXY_HOST'));
+}
+
+if ( getenv('WP_PROXY_PORT') ) {
+	define('WP_PROXY_PORT', getenv('WP_PROXY_PORT'));
+}
+
 /**
  * Bootstrap WordPress
  */
