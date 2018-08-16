@@ -463,6 +463,7 @@
     "wpackagist-plugin/black-studio-tinymce-widget": "^2.6",
     "wpackagist-plugin/bp-blog-avatar": "^1.0",
     "wpackagist-plugin/bp-lotsa-feeds": "^1.0",
+    "wpackagist-plugin/buddydrive": "^2.1.1",
     "wpackagist-plugin/buddypress-docs": "1.9.4",
     "wpackagist-plugin/buddypress-sitewide-activity-widget": "^1.3",
     "wpackagist-plugin/buddypress-global-search": "^1.1.9",
