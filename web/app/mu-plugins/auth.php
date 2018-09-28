@@ -48,7 +48,7 @@ function hcommons_maybe_redirect_after_login() {
 			! isset( $_COOKIE['bp-message'] ) ||
 			! preg_match( '/You must be a logged-in member/', $_COOKIE['bp-message'] )
 		) {
-			$cookie_value = isset( $_REQUEST[ $param_name ] ) ? $_REQUEST[ $param_name ] : get_site_url() . $_SERVER['REQUEST_URI'];
+			$cookie_value = isset( $_REQUEST[ $param_name ] ) ? $_REQUEST[ $param_name ] : get_home_url() . $_SERVER['REQUEST_URI'];
 
 			setcookie( $cookie_name, $cookie_value, time() + MINUTE_IN_SECONDS, COOKIEPATH, COOKIE_DOMAIN );
 		}
