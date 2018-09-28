@@ -33,8 +33,8 @@ function hcommons_maybe_redirect_after_login() {
 				setcookie( $cookie_name, '', time() - YEAR_IN_SECONDS, COOKIEPATH, $network->cookie_domain );
 			}
 
-			// only redirect if we're not already there
-			if ( false === strpos( $_COOKIE[ $cookie_name ], $_SERVER['REQUEST_URI'] ) ) {
+			// only redirect if we're not already there and we aren't in the admin
+			if ( false === strpos( $_SERVER['REQUEST_URI'], 'wp-admin' ) && false === strpos( $_COOKIE[ $cookie_name ], $_SERVER['REQUEST_URI'] ) ) {
 				// Can't use wp_safe_redirect due to filters, just send directly.
 				header( 'Location: ' . $_COOKIE[ $cookie_name ] );
 				exit;
