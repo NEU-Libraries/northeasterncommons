@@ -10,6 +10,11 @@ define('SCRIPT_DEBUG', true);
 ini_set('log_errors', 1);
 ini_set('error_log', getenv('WP_LOGS_DIR') . '/debug.log');
 
+//define('ADMIN_COOKIE_PATH', '/');
+//define('COOKIE_DOMAIN', '');
+//define('COOKIEPATH', '');
+//define('SITECOOKIEPATH', '');
+
 /* Changes to vanilla Bedrock below this line */
 
 /* Disable outgoing mail */

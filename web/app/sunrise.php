@@ -36,4 +36,14 @@ if( $domain_mapping_id ) {
 	define( 'DOMAIN_MAPPING', 1 );
 } else {
 	define( 'COOKIE_DOMAIN', getenv( 'WP_DOMAIN' ) );
+	define( 'COOKIEHASH', md5( getenv( 'WP_DOMAIN' ) ) );
+	define( 'ADMIN_COOKIE_PATH', '/' );
+	define( 'COOKIEPATH', '/' );
+	define( 'SITECOOKIEPATH', '/' );
+	define( 'TEST_COOKIE', 'wordpress_test_cookie' );
+	define( 'AUTH_COOKIE', 'wordpress_' . COOKIEHASH );
+	define( 'USER_COOKIE', 'wordpressuser_' . COOKIEHASH );
+	define( 'PASS_COOKIE', 'wordpresspass_' . COOKIEHASH );
+	define( 'SECURE_AUTH_COOKIE', 'wordpress_sec_' . COOKIEHASH );
+	define( 'LOGGED_IN_COOKIE', 'wordpress_logged_in' . COOKIEHASH );
 }
