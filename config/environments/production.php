@@ -11,6 +11,8 @@ define('WP_DEBUG', true);
 ini_set('log_errors', 1);
 ini_set('error_log', getenv('WP_LOGS_DIR') . '/debug.log');
 
+define('WP_PROXY_BYPASS_HOSTS', '155.33.31.198');
+
 // disallow elasticpress sync from wp-admin
 define( 'EP_DASHBOARD_SYNC', false );
 

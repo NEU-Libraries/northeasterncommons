@@ -353,11 +353,11 @@
     {
       "type": "package",
       "package": {
-        "name": "mlaa/elasticpress-buddypress",
+        "name": "NEU-Libraries/elasticpress-buddypress",
         "version": "dev-master",
         "type": "wordpress-plugin",
         "source": {
-          "url": "git@github.com:mlaa/elasticpress-buddypress.git",
+          "url": "git@github.com:NEU-Libraries/elasticpress-buddypress.git",
           "type": "git",
           "reference": "master"
         }
@@ -428,7 +428,7 @@
     "mlaa/commentpress-mla": "dev-master#9ca1567",
     "mlaa/commentpress-mla-digitalpedagogy": "dev-master",
     "mlaa/commentpress-mla-groups": "dev-master",
-    "mlaa/elasticpress-buddypress": "dev-master",
+    "NEU-Libraries/elasticpress-buddypress": "dev-master",
     "mlaa/hc-auth": "dev-master#167c3843",
     "NEU-Libraries/hc-custom": "dev-master",
     "NEU-Libraries/hc-member-profiles": "dev-master",

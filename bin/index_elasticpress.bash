@@ -12,9 +12,10 @@ set -e
 # e.g.
 # bash bin/index_elasticpress.bash
 #
+source /opt/rh/rh-php70/enable
 
-wp="sudo -u www-data /usr/local/bin/wp --path=/srv/www/commons/current/web/wp --url=$(hostname)"
-all_networks_wp=/home/ubuntu/all_networks_wp.bash
+wp="sudo -u apache /usr/local/bin/wp --path=/wordpressdata/nucommons/web/wp --url=$(hostname)"
+all_networks_wp=/wordpressdata/nucommons/bin/all_networks_wp.bash
 
 if [[ "$1" = "setup" ]]
 then
