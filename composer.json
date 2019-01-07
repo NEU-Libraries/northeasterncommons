@@ -532,7 +532,8 @@
     "wpackagist-plugin/wp-pro-quiz": "^0.37.0",
     "wpackagist-plugin/wp-to-twitter": "^3.3",
     "wpackagist-plugin/wpfront-notification-bar": "^1.7",
-    "wpackagist-plugin/zotpress": "^6.2"
+    "wpackagist-plugin/zotpress": "^6.2",
+    "wpackagist-plugin/wordpress-social-login":"2.3.3"
   },
   "scripts": {
     "pre-update-cmd": [
