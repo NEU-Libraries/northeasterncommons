@@ -36,7 +36,9 @@ if( $domain_mapping_id ) {
 	define( 'DOMAIN_MAPPING', 1 );
 } else {
 	define( 'COOKIE_DOMAIN', getenv( 'WP_DOMAIN' ) );
-	define( 'COOKIEHASH', md5( getenv( 'WP_DOMAIN' ) ) );
+	if ( ! defined('COOKIEHASH') ) {
+		define( 'COOKIEHASH', md5( getenv( 'WP_DOMAIN' ) ) );
+	}
 	define( 'TEST_COOKIE', 'wordpress_test_cookie' );
 	define( 'AUTH_COOKIE', 'wordpress_' . COOKIEHASH );
 	define( 'USER_COOKIE', 'wordpressuser_' . COOKIEHASH );
