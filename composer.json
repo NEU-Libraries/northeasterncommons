@@ -499,6 +499,7 @@
     "wpackagist-plugin/multisite-custom-css": "^1.0",
     "wpackagist-plugin/network-plugin-auditor": "^1.10",
     "wpackagist-plugin/newsletters-lite": "4.6.6.2",
+    "wpackagist-plugin/nextend-facebook-connect": "^3.0.14",
     "wpackagist-plugin/ninja-forms": "^3.3",
     "wpackagist-plugin/openbook-book-data": "^3.5",
     "wpackagist-plugin/options-framework": "^1.8",
@@ -532,8 +533,7 @@
     "wpackagist-plugin/wp-pro-quiz": "^0.37.0",
     "wpackagist-plugin/wp-to-twitter": "^3.3",
     "wpackagist-plugin/wpfront-notification-bar": "^1.7",
-    "wpackagist-plugin/zotpress": "^6.2",
-    "wpackagist-plugin/wordpress-social-login":"2.3.3"
+    "wpackagist-plugin/zotpress": "^6.2"
   },
   "scripts": {
     "pre-update-cmd": [
