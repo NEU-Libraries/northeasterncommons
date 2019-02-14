@@ -132,6 +132,19 @@
     {
       "type": "package",
       "package": {
+        "name": "brainstormforce/astra",
+        "version": "dev-master",
+        "type": "wordpress-theme",
+        "source": {
+          "url": "git@github.com:brainstormforce/astra.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
         "name": "mlaa/bbPress-Export-and-Import",
         "version": "dev-master",
         "type": "wordpress-plugin",
@@ -415,6 +428,7 @@
     "johnpbloch/wordpress": "^4.9",
     "mlaa/bbPress-Export-and-Import": "dev-master#5aaaa29",
     "NEU-Libraries/boss-child": "dev-master",
+    "brainstormforce/astra": "dev-master",
     "mlaa/bp-attachment-xprofile-field-type": "dev-master#1cc136c",
     "mlaa/bp-group-documents": "dev-master",
     "mlaa/bp-mpo-activity-filter": "dev-master",
