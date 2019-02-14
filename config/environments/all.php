@@ -42,6 +42,8 @@ define( 'COOKIEPATH', '/' );
 define( 'ADMIN_COOKIE_PATH', '/' );
 define( 'SITECOOKIEPATH',    '/' );
 
+define( 'WP_DEFAULT_THEME', 'astra' );
+
 /* Because of customizer widget page error and shibboleth auto login, we will not set cookies as is usually done in wp-multi-network.
 define( 'COOKIEHASH', md5( 'alpha.hcommons.org' ) );
 define( 'COOKIE_DOMAIN', 'alpha.hcommons.org' );
