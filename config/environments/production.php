@@ -6,6 +6,7 @@ define('SCRIPT_DEBUG', false);
 define('DISALLOW_FILE_MODS', true); // this disables all file modifications including updates and update notifications
 define('WP_REDIS_DISABLED', true);
 
+//define('WORDPRESS_SOCIAL_LOGIN_PLUGIN_URL', 'https://next.northeasterncommons.org/app/plugins/wordpress-social-login/');
 define('WP_DEBUG', true);
 
 ini_set('log_errors', 1);

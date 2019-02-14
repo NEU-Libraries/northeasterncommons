@@ -21,7 +21,7 @@ if [[ "$1" = "setup" ]]
 then
   $all_networks_wp elasticpress index --setup
 else
-  $all_networks_wp elasticpress index
+  $all_networks_wp elasticpress index --allow-root
 fi
-$wp elasticpress-buddypress index_from_all_networks --post-type=humcore_deposit
-$all_networks_wp elasticpress-buddypress index
+$wp elasticpress-buddypress index_from_all_networks --post-type=humcore_deposit --allow-root
+$all_networks_wp elasticpress-buddypress index --allow-root
