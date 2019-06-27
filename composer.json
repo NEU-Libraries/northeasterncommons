@@ -23,6 +23,10 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:NEU-Libraries/boss-child-next.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:mlaa/bp-attachment-xprofile-field-type.git"
     },
     {
@@ -428,6 +432,7 @@
     "johnpbloch/wordpress": "^4.9",
     "mlaa/bbPress-Export-and-Import": "dev-master#5aaaa29",
     "NEU-Libraries/boss-child": "dev-master",
+    "NEU-Libraries/boss-child-next": "dev-master",
     "brainstormforce/astra": "dev-master",
     "mlaa/bp-attachment-xprofile-field-type": "dev-master#1cc136c",
     "mlaa/bp-group-documents": "dev-master",
